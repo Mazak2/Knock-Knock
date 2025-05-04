@@ -1,0 +1,45 @@
+[gd_scene load_steps=8 format=3 uid="uid://b80gjxtxrlovw"]
+
+[ext_resource type="PackedScene" uid="uid://dhot1jslysli2" path="res://knock_knock.tscn" id="1_6m8u5"]
+[ext_resource type="PackedScene" uid="uid://dlbkch6iuy8gn" path="res://addons/fp_controller/player.tscn" id="2_r63r3"]
+[ext_resource type="PackedScene" uid="uid://dlhffnjetqdnj" path="res://key_nr_1.tscn" id="3_56v46"]
+[ext_resource type="PackedScene" uid="uid://ccemckf4fqx7e" path="res://objects/hinge.tscn" id="4_a3xef"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ykh8d"]
+sky_top_color = Color(0.379308, 0.440058, 0.627613, 1)
+
+[sub_resource type="Sky" id="Sky_k21e5"]
+sky_material = SubResource("ProceduralSkyMaterial_ykh8d")
+
+[sub_resource type="Environment" id="Environment_d55bh"]
+background_mode = 2
+background_energy_multiplier = 2.0
+sky = SubResource("Sky_k21e5")
+ambient_light_source = 3
+
+[node name="TestWorld" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.364197, -0.108075, 0.204235)
+
+[node name="World" type="Node3D" parent="."]
+
+[node name="Player" parent="World" instance=ExtResource("2_r63r3")]
+transform = Transform3D(-9.94781, 0, -1.02029, 0, 10, 0, 1.02029, 0, -9.94781, 24.8643, 7.9395, 141.712)
+walk_back_speed = 30.0
+walk_speed = 100.0
+sprint_speed = 300.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="World"]
+environment = SubResource("Environment_d55bh")
+
+[node name="KnockKnock" parent="World" instance=ExtResource("1_6m8u5")]
+
+[node name="key_nr1" parent="World" groups=["Interactibles"] instance=ExtResource("3_56v46")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.3186, 10.3853, -29.594)
+
+[node name="Hinge" parent="World" instance=ExtResource("4_a3xef")]
+transform = Transform3D(-1.81e-05, 0, 5, 0, 5, 0, -5, 0, -1.81e-05, -1.16599, 9.64737, 57.3262)
+
+[editable path="World/Player"]
+[editable path="World/key_nr1"]
+[editable path="World/Hinge"]
+[editable path="World/Hinge/drzwi"]

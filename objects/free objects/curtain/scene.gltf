@@ -1,0 +1,323 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7881,
+      "max": [
+        47.836673736572266,
+        4.497379302978516,
+        49.21260452270508
+      ],
+      "min": [
+        -49.827354431152344,
+        -4.230205535888672,
+        -50.79768371582031
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 94572,
+      "componentType": 5126,
+      "count": 7881,
+      "max": [
+        0.9999960660934448,
+        0.049069177359342575,
+        0.31077906489372253
+      ],
+      "min": [
+        -0.9999895095825195,
+        -1.0,
+        -0.2672703266143799
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7881,
+      "max": [
+        0.9999994039535522,
+        1.0000009536743164
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 46200,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 189144,
+      "componentType": 5126,
+      "count": 8435,
+      "max": [
+        34.61790466308594,
+        9.783942222595215,
+        49.21260452270508
+      ],
+      "min": [
+        -33.698486328125,
+        -9.406914710998535,
+        -50.60102081298828
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 290364,
+      "componentType": 5126,
+      "count": 8435,
+      "max": [
+        0.9999895095825195,
+        0.9969199895858765,
+        0.999992847442627
+      ],
+      "min": [
+        -0.9999477863311768,
+        -1.0,
+        -0.9999366402626038
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 63048,
+      "componentType": 5126,
+      "count": 8435,
+      "max": [
+        1.0499993562698364,
+        1.0000009536743164
+      ],
+      "min": [
+        -0.05000000074505806,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 184800,
+      "componentType": 5125,
+      "count": 48300,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "milaink (https://sketchfab.com/milaink)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/curtain-6f0e27c3b4734b99ae6ed051899a1453",
+      "title": "Curtain"
+    },
+    "generator": "Sketchfab-15.25.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 378000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 130528,
+      "byteOffset": 378000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 391584,
+      "byteOffset": 508528,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 900112,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Curtain",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.301961,
+          0.0117647,
+          0.0117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.7
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "��urtain_Curtain_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "��urtain tied_Curtain_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.02539999969303608,
+        0.0,
+        0.0,
+        -0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "deeebf1a85f1479c98ca3005e5cefa41.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        -55.75434875488281,
+        51.18110275268555,
+        1.6844558715820313,
+        1.0
+      ],
+      "name": "��urtain"
+    },
+    {
+      "mesh": 0,
+      "name": "��urtain_Curtain_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        32.247127532958984,
+        51.18110275268555,
+        3.23834228515625,
+        1.0
+      ],
+      "name": "��urtain tied"
+    },
+    {
+      "mesh": 1,
+      "name": "��urtain tied_Curtain_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

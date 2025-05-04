@@ -1,0 +1,11 @@
+Model Information:
+* title:	African Mask
+* source:	https://sketchfab.com/3d-models/african-mask-f580c296d8dd462589443e4f89d37a6e
+* author:	rud.olenka (https://sketchfab.com/rud.olenka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "African Mask" (https://sketchfab.com/3d-models/african-mask-f580c296d8dd462589443e4f89d37a6e) by rud.olenka (https://sketchfab.com/rud.olenka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	old_leather_armchair
+* source:	https://sketchfab.com/3d-models/old-leather-armchair-ae47fb3d061045569f1089aaabd840ca
+* author:	VoGAn (https://sketchfab.com/radiosoldat.g)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "old_leather_armchair" (https://sketchfab.com/3d-models/old-leather-armchair-ae47fb3d061045569f1089aaabd840ca) by VoGAn (https://sketchfab.com/radiosoldat.g) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

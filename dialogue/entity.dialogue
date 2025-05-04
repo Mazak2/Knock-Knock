@@ -1,0 +1,14 @@
+~ opening
+
+???: Hi there, hello! Ehm… It seems like I might have locked myself up in this room by accident. Could you like… let me out?
+- Woah woah woah, excuse me, who are you again?
+	???: I’m Michael Lagos (misspelled), I live in room 1 upstairs. Don’t you know about me? You work here, right?
+	- Alright, let me just check back at the reception real quick.
+	- Hold up buddy, why are you even here?
+		Michael Lagos: Dunno dude I was just sightseeing, some things happened, woke up and here I was. I need to get out. Please. Need to pick up my kid from school.
+		- I'm gonna check upstairs and be right back, don't worry mister.
+		- If you need to go, just go (implement consequences)
+	
+- Yeah, sure. I see absolutely nothing wrong with that (implement consequences).
+
+=> END

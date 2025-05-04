@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rocking Chair
+* source:	https://sketchfab.com/3d-models/rocking-chair-bcd3f4e05ec44902af3b5668b2b831ca
+* author:	donnichols (https://sketchfab.com/donnichols)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rocking Chair" (https://sketchfab.com/3d-models/rocking-chair-bcd3f4e05ec44902af3b5668b2b831ca) by donnichols (https://sketchfab.com/donnichols) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

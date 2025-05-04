@@ -1,0 +1,82 @@
+[gd_scene load_steps=8 format=3 uid="uid://ccemckf4fqx7e"]
+
+[ext_resource type="PackedScene" uid="uid://cbqb1om2jnyui" path="res://objects/drzwi.glb" id="1_58ckg"]
+[ext_resource type="Script" path="res://objects/Collision.gd" id="2_kcjto"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_6em32"]
+
+[sub_resource type="Animation" id="Animation_4fwiu"]
+resource_name = "Open"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 1.5708, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_lrjbh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 1.5708, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_g7vda"]
+resource_name = "close"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 1.5708, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_m3lwt"]
+_data = {
+"Open": SubResource("Animation_4fwiu"),
+"RESET": SubResource("Animation_lrjbh"),
+"close": SubResource("Animation_g7vda")
+}
+
+[node name="Hinge" type="Node3D" groups=["Interactibles"]]
+transform = Transform3D(-3.61999e-06, 0, 1, 0, 1, 0, -1, 0, -3.61999e-06, 0.951929, 1.72404, -0.0681963)
+
+[node name="drzwi" parent="." instance=ExtResource("1_58ckg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.00356, -1.80095, 0)
+
+[node name="Collision" parent="drzwi" index="1" node_paths=PackedStringArray("animation") groups=["Interactibles"]]
+physics_material_override = SubResource("PhysicsMaterial_6em32")
+script = ExtResource("2_kcjto")
+animation = NodePath("../AnimationPlayer")
+
+[node name="OpenCooldown" type="Timer" parent="drzwi/Collision" index="0"]
+wait_time = 0.5
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="drzwi"]
+libraries = {
+"": SubResource("AnimationLibrary_m3lwt")
+}
+
+[editable path="drzwi"]

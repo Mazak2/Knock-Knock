@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhot1jslysli2"]
+
+[ext_resource type="PackedScene" uid="uid://cfir6l5j3w8v7" path="res://KnockKnock.glb" id="1_ora04"]
+
+[node name="KnockKnock" instance=ExtResource("1_ora04")]
+transform = Transform3D(0.56, 0, 0, 0, 0.72, 0, 0, 0, 0.6, 0, 0, 0)

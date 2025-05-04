@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://ct03xoov6viuo"]
+
+[ext_resource type="PackedScene" uid="uid://cc1m2a1obsyn4" path="res://addons/fpc/character.tscn" id="1_c80li"]
+
+[node name="Character" instance=ExtResource("1_c80li")]
+base_speed = 12.0
+sprint_speed = 24.0
+acceleration = 40.0
+jump_velocity = 12.0
+JUMP = "jump"
+LEFT = "move_left"
+RIGHT = "move_right"
+FORWARD = "move_forward"
+BACKWARD = "move_back"
+PAUSE = "pause"

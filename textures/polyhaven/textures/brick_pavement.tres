@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://bnx747i283wln"]
+
+[ext_resource type="Texture2D" uid="uid://bm231oc163741" path="res://textures/polyhaven/textures/brick_pavement_diff_4k.jpg" id="1_x5kq0"]
+[ext_resource type="Texture2D" uid="uid://bob3yxjafg5ml" path="res://textures/polyhaven/textures/brick_pavement_arm_4k.jpg" id="2_vh0en"]
+[ext_resource type="Texture2D" uid="uid://bw4uaml5lssib" path="res://textures/polyhaven/textures/brick_pavement_nor_gl_4k.jpg" id="3_5vi8b"]
+
+[resource]
+resource_name = "brick_pavement"
+cull_mode = 2
+albedo_texture = ExtResource("1_x5kq0")
+metallic_texture = ExtResource("2_vh0en")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_vh0en")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_scale = 3.0
+normal_texture = ExtResource("3_5vi8b")
+uv1_scale = Vector3(5, 5, 1)

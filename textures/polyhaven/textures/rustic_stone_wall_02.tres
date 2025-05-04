@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://d207oa21rflva"]
+
+[ext_resource type="Texture2D" uid="uid://cv4fm6aye1tfo" path="res://textures/polyhaven/textures/rustic_stone_wall_02_diff_4k.jpg" id="1_j3ex6"]
+[ext_resource type="Texture2D" uid="uid://cpy0rfg8wp2uh" path="res://textures/polyhaven/textures/rustic_stone_wall_02_arm_4k.jpg" id="2_67bp0"]
+[ext_resource type="Texture2D" uid="uid://bxoodq6hfyc5" path="res://textures/polyhaven/textures/rustic_stone_wall_02_nor_gl_4k.jpg" id="3_x3rdm"]
+
+[resource]
+resource_name = "rustic_stone_wall_02"
+cull_mode = 2
+albedo_texture = ExtResource("1_j3ex6")
+metallic_texture = ExtResource("2_67bp0")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_67bp0")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_x3rdm")
+uv1_scale = Vector3(0.047, 0.049, 0.04)
+uv1_triplanar = true

@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://dlhffnjetqdnj"]
+
+[ext_resource type="Script" path="res://key_nr_1.gd" id="1_d0tct"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8khie"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gyosn"]
+
+[sub_resource type="TorusMesh" id="TorusMesh_0mjlr"]
+
+[node name="key_nr1" type="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.200627, 0.0242676)
+physics_material_override = SubResource("PhysicsMaterial_8khie")
+script = ExtResource("1_d0tct")
+
+[node name="rigidbody_collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, -8.74228e-08, -2, 0, 2, -8.74228e-08, 0, 0, 0)
+shape = SubResource("BoxShape3D_gyosn")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("TorusMesh_0mjlr")
+
+[node name="keynr1_area" type="Area3D" parent="."]
+
+[node name="area_collision" type="CollisionShape3D" parent="keynr1_area"]
+transform = Transform3D(2, 0, 0, 0, -8.74228e-08, -2, 0, 2, -8.74228e-08, 0, 0, 0)
+shape = SubResource("BoxShape3D_gyosn")

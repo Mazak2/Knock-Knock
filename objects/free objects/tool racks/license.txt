@@ -1,0 +1,11 @@
+Model Information:
+* title:	Metal Rack Shelf (2K Textures)
+* source:	https://sketchfab.com/3d-models/metal-rack-shelf-2k-textures-072a86882e6f4628833fe858d80e3b40
+* author:	Minh Nguyen (https://sketchfab.com/Minh_Nguyen_2004)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Metal Rack Shelf (2K Textures)" (https://sketchfab.com/3d-models/metal-rack-shelf-2k-textures-072a86882e6f4628833fe858d80e3b40) by Minh Nguyen (https://sketchfab.com/Minh_Nguyen_2004) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

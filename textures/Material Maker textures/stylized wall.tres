@@ -1,0 +1,25 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://bamsatgb6lr1v"]
+
+[ext_resource type="Texture2D" uid="uid://ddp5sgeyaj5os" path="res://textures/Material Maker textures/stylized wall_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://fykwtrq5obl0" path="res://textures/Material Maker textures/stylized wall_orm.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bml43lukprj6t" path="res://textures/Material Maker textures/stylized wall_normal.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cp6aq4oakyg5v" path="res://textures/Material Maker textures/stylized wall_heightmap.png" id="4"]
+
+[resource]
+cull_mode = 2
+albedo_texture = ExtResource("1")
+metallic = 1.0
+metallic_texture = ExtResource("2")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3")
+ao_enabled = true
+ao_texture = ExtResource("2")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("4")
+uv1_scale = Vector3(2.505, 1.285, 1.005)
