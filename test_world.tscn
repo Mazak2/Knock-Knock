@@ -976,7 +976,7 @@ transparency = 1
 cull_mode = 2
 shading_mode = 0
 vertex_color_use_as_albedo = true
-albedo_color = Color(0.631373, 0.741176, 0.741176, 1)
+albedo_color = Color(0.8, 0.870588, 0.870588, 0.243137)
 use_particle_trails = true
 
 [sub_resource type="RibbonTrailMesh" id="RibbonTrailMesh_w1cap"]
@@ -1721,103 +1721,78 @@ transform = Transform3D(-17.4071, 0, 1.14916, 0, 17.445, 0, -1.14916, 0, -17.407
 [node name="StaticBody3D" type="StaticBody3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0" index="0"]
 
 [node name="@CollisionShape3D@23222" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_rcqo0")
 
 [node name="@CollisionShape3D@23221" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_xp1al")
 
 [node name="@CollisionShape3D@23220" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_mxs2g")
 
 [node name="@CollisionShape3D@23219" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_g10b4")
 
 [node name="@CollisionShape3D@23218" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_4vgdh")
 
 [node name="@CollisionShape3D@23217" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_vigad")
 
 [node name="@CollisionShape3D@23216" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_3qa2c")
 
 [node name="@CollisionShape3D@23215" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_7f1mq")
 
 [node name="@CollisionShape3D@23214" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_5jhox")
 
 [node name="@CollisionShape3D@23213" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_j85pt")
 
 [node name="@CollisionShape3D@23212" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_jo38q")
 
 [node name="@CollisionShape3D@23211" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_kr85e")
 
 [node name="@CollisionShape3D@23210" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_rv0h0")
 
 [node name="@CollisionShape3D@23209" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_1foqd")
 
 [node name="@CollisionShape3D@23208" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_ml0am")
 
 [node name="@CollisionShape3D@23207" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_bwo54")
 
 [node name="@CollisionShape3D@23206" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_stor3")
 
 [node name="@CollisionShape3D@23205" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_tfst7")
 
 [node name="@CollisionShape3D@23204" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_2r743")
 
 [node name="@CollisionShape3D@23203" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_6xqpu")
 
 [node name="@CollisionShape3D@23202" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_550ik")
 
 [node name="@CollisionShape3D@23201" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_4rx55")
 
 [node name="@CollisionShape3D@23200" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_d0ryf")
 
 [node name="@CollisionShape3D@23199" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_wnbbd")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="World/Car/Sketchfab_model/Root/Punto_GT/Punto_GT_0/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_ss7ar")
 
 [node name="Rocking chair" parent="World" instance=ExtResource("87_e54c2")]
