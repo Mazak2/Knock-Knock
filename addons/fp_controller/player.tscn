@@ -216,7 +216,7 @@ script = ExtResource("1_5ras8")
 [node name="DoorRay" type="RayCast3D" parent="."]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.66499, 0)
 target_position = Vector3(0, 0, -1)
-collision_mask = 17
+collision_mask = 19
 script = ExtResource("13_xvtef")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
