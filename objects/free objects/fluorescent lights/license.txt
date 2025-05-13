@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fluorecent lights
+* source:	https://sketchfab.com/3d-models/fluorecent-lights-bca96f873b0743f88d61cd12b0750507
+* author:	Sean Thomas (https://sketchfab.com/foon.)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fluorecent lights" (https://sketchfab.com/3d-models/fluorecent-lights-bca96f873b0743f88d61cd12b0750507) by Sean Thomas (https://sketchfab.com/foon.) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
