@@ -1,4 +1,4 @@
-[gd_scene load_steps=281 format=3 uid="uid://b80gjxtxrlovw"]
+[gd_scene load_steps=313 format=3 uid="uid://b80gjxtxrlovw"]
 
 [ext_resource type="PackedScene" uid="uid://dhot1jslysli2" path="res://knock_knock.tscn" id="1_6m8u5"]
 [ext_resource type="Texture2D" uid="uid://b6gj1d71br8uh" path="res://textures/panorama_image.png" id="1_reduy"]
@@ -72,28 +72,49 @@
 [ext_resource type="Texture2D" uid="uid://dutrib0jrxo38" path="res://textures/ambientcg/Fabric029_2K-JPG_Displacement.jpg" id="65_seq8d"]
 [ext_resource type="Texture2D" uid="uid://2kynjfp18n8b" path="res://textures/ambientcg/Fabric029_2K-JPG_NormalGL.jpg" id="66_vyg0j"]
 [ext_resource type="Texture2D" uid="uid://dn3058yq6ufcm" path="res://textures/ambientcg/Fabric029_2K-JPG_Roughness.jpg" id="67_yhgyk"]
+[ext_resource type="Texture2D" uid="uid://bsn0hqj3xjmuo" path="res://textures/ambientcg/FuseBx/Metal003_1K-JPG/Metal003_1K-JPG_Color.jpg" id="68_auvh2"]
+[ext_resource type="Texture2D" uid="uid://b306n2dm188t5" path="res://textures/ambientcg/FuseBx/Metal003_1K-JPG/Metal003_1K-JPG_Displacement.jpg" id="69_fbijx"]
+[ext_resource type="Script" path="res://Switches_001.gd" id="69_yqvyw"]
+[ext_resource type="Texture2D" uid="uid://ckhc1rcui5gr4" path="res://textures/ambientcg/FuseBx/Metal003_1K-JPG/Metal003_1K-JPG_Metalness.jpg" id="70_n7adf"]
+[ext_resource type="Texture2D" uid="uid://buo7k1weh2ydr" path="res://textures/ambientcg/FuseBx/Metal003_1K-JPG/Metal003_1K-JPG_NormalGL.jpg" id="71_ays76"]
+[ext_resource type="Texture2D" uid="uid://r7oxiv5bqf" path="res://textures/ambientcg/FuseBx/Metal003_1K-JPG/Metal003_1K-JPG_Roughness.jpg" id="72_28kls"]
+[ext_resource type="Texture2D" uid="uid://ornhsa4lyaf4" path="res://textures/ambientcg/FuseBx/Plastic010_1K-JPG/Plastic010_1K-JPG_Color.jpg" id="74_mfll4"]
 [ext_resource type="PackedScene" uid="uid://23hyt4xan1ku" path="res://objects/free objects/lamp.gltf" id="74_ne2cf"]
 [ext_resource type="PackedScene" uid="uid://7rukhqhac1x0" path="res://objects/free objects/armchair/scene.gltf" id="75_syqsx"]
+[ext_resource type="Texture2D" uid="uid://1y8yob0i7mnq" path="res://textures/ambientcg/FuseBx/Plastic010_1K-JPG/Plastic010_1K-JPG_Displacement.jpg" id="75_xjifl"]
 [ext_resource type="PackedScene" uid="uid://botebca6fhfk5" path="res://objects/free objects/bookshelf/scene.gltf" id="76_d6wm6"]
+[ext_resource type="Texture2D" uid="uid://gayncqhgcnqj" path="res://textures/ambientcg/FuseBx/Plastic010_1K-JPG/Plastic010_1K-JPG_NormalGL.jpg" id="76_loqih"]
+[ext_resource type="Texture2D" uid="uid://bwqm47a5cfdl2" path="res://textures/ambientcg/FuseBx/Plastic010_1K-JPG/Plastic010_1K-JPG_Roughness.jpg" id="77_47kl8"]
 [ext_resource type="PackedScene" uid="uid://twyoe8v8b5xs" path="res://objects/free objects/ceiling lamp/scene.gltf" id="77_vqhj1"]
 [ext_resource type="PackedScene" uid="uid://d1o55r4i2gr1v" path="res://objects/free objects/masks/mask 1/scene.gltf" id="78_hu7yo"]
+[ext_resource type="Texture2D" uid="uid://d3ncspck1scbp" path="res://textures/ambientcg/FuseBx/Plastic006_1K-JPG/Plastic006_1K-JPG_Color.jpg" id="78_owl2y"]
+[ext_resource type="Texture2D" uid="uid://cobowvypmpuo5" path="res://textures/ambientcg/FuseBx/Plastic006_1K-JPG/Plastic006_1K-JPG_Displacement.jpg" id="79_0mvy1"]
 [ext_resource type="PackedScene" uid="uid://4vbv4bchcnbt" path="res://objects/free objects/masks/mask 2/scene.gltf" id="79_dnikx"]
+[ext_resource type="Texture2D" uid="uid://bgasup4w0f5k4" path="res://textures/ambientcg/FuseBx/Plastic006_1K-JPG/Plastic006_1K-JPG_NormalGL.jpg" id="80_i3wuk"]
 [ext_resource type="PackedScene" uid="uid://beiieslx4s244" path="res://objects/free objects/masks/mask 3/scene.gltf" id="80_wg316"]
+[ext_resource type="Texture2D" uid="uid://bev3ebrc3amrf" path="res://textures/ambientcg/FuseBx/Plastic006_1K-JPG/Plastic006_1K-JPG_Roughness.jpg" id="81_6gblq"]
 [ext_resource type="PackedScene" uid="uid://cp8iw0hm2cjuj" path="res://objects/free objects/window/scene.gltf" id="81_ocoip"]
 [ext_resource type="ArrayMesh" uid="uid://dlpeifb7j0kf2" path="res://objects/free objects/masks/masks many/elephant.res" id="82_jelnp"]
 [ext_resource type="PackedScene" uid="uid://bmbotxerwsbiy" path="res://objects/free objects/doormat/scene.gltf" id="82_nlujs"]
 [ext_resource type="ArrayMesh" uid="uid://cl31fv2fwppgx" path="res://objects/free objects/masks/masks many/multi-face.res" id="83_b1sv6"]
 [ext_resource type="PackedScene" uid="uid://cgm8ffflp1vmc" path="res://objects/free objects/Desk lamp/scene.gltf" id="83_cn4nj"]
+[ext_resource type="Texture2D" uid="uid://b2v5reskjjrla" path="res://textures/ambientcg/FuseBx/Rubber004_1K-JPG/Rubber004_1K-JPG_Color.jpg" id="83_d7cx3"]
+[ext_resource type="Texture2D" uid="uid://qasb4x5aaqmm" path="res://textures/ambientcg/FuseBx/Rubber004_1K-JPG/Rubber004_1K-JPG_Displacement.jpg" id="84_actjm"]
 [ext_resource type="PackedScene" uid="uid://c81dgovnq41eh" path="res://objects/free objects/tool racks/scene.gltf" id="84_paq20"]
 [ext_resource type="PackedScene" uid="uid://b0vexbs2amno5" path="res://objects/free objects/corkboard/scene.gltf" id="84_yxfxy"]
 [ext_resource type="PackedScene" uid="uid://do5uilogdpvny" path="res://objects/free objects/water heater/scene.gltf" id="85_6om14"]
 [ext_resource type="ArrayMesh" uid="uid://dk2ew5bwm0c8b" path="res://objects/free objects/curtain/curtain_straight.res" id="85_rkdw7"]
+[ext_resource type="Texture2D" uid="uid://ccemhxcl5vjuj" path="res://textures/ambientcg/FuseBx/Rubber004_1K-JPG/Rubber004_1K-JPG_NormalGL.jpg" id="85_xoqd5"]
 [ext_resource type="PackedScene" uid="uid://dyvs5jytd1rgf" path="res://objects/free objects/car/scene.gltf" id="86_r8jac"]
 [ext_resource type="ArrayMesh" uid="uid://dvfhavo4oo8x2" path="res://objects/free objects/curtain/curtain_folded.res" id="86_unnni"]
+[ext_resource type="Texture2D" uid="uid://756cm65f7yqb" path="res://textures/ambientcg/FuseBx/Rubber004_1K-JPG/Rubber004_1K-JPG_Roughness.jpg" id="86_vciqe"]
+[ext_resource type="Texture2D" uid="uid://0s281niq3hdv" path="res://textures/ambientcg/FuseBx/vecteezy_danger-high-voltage-sign_7266651_956/vecteezy_danger-high-voltage-sign_7266651.jpg" id="87_8rxv4"]
 [ext_resource type="Texture2D" uid="uid://i1ym8qmtbdpg" path="res://objects/free objects/animated door/textures/Door_1_PBR_baseColor.png" id="87_dwxqm"]
 [ext_resource type="PackedScene" uid="uid://dafdouwsdib1x" path="res://objects/free objects/Rocking chair/scene.gltf" id="87_e54c2"]
+[ext_resource type="Script" path="res://OmniLight3D.gd" id="88_58o1o"]
 [ext_resource type="Texture2D" uid="uid://dq2yb2qipe0jh" path="res://objects/free objects/animated door/textures/Door_1_PBR_metallicRoughness.png" id="88_u6kcd"]
 [ext_resource type="Texture2D" uid="uid://dp86kjuge73v8" path="res://objects/free objects/animated door/textures/Door_1_PBR_normal.png" id="89_dy8hc"]
+[ext_resource type="Script" path="res://Green_light.gd" id="89_pldej"]
 [ext_resource type="Animation" uid="uid://dperotgjci2we" path="res://objects/free objects/animated door/modified animation/open.res" id="90_sh42a"]
 [ext_resource type="Script" path="res://StaticBody3D.gd" id="90_x68q5"]
 [ext_resource type="Script" path="res://Moon.gd" id="92_3x42y"]
@@ -668,6 +689,178 @@ heightmap_texture = ExtResource("65_seq8d")
 uv1_scale = Vector3(0.01, 0.01, 0.01)
 uv1_triplanar = true
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ftlq7"]
+albedo_texture = ExtResource("68_auvh2")
+metallic = 0.34
+metallic_texture = ExtResource("70_n7adf")
+roughness_texture = ExtResource("72_28kls")
+normal_enabled = true
+normal_texture = ExtResource("71_ays76")
+heightmap_enabled = true
+heightmap_texture = ExtResource("69_fbijx")
+uv1_triplanar = true
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_lt64t"]
+points = PackedVector3Array(0.6092, 0.518085, 0.954335, -0.406586, -0.559373, -1.01587, -0.406586, 0.551738, -1.01587, -0.406586, -0.559373, 1.01587, 0.6092, -0.525719, -0.954335, -0.406586, 0.551738, 1.01587, 0.6092, 0.518085, -0.954335, 0.6092, -0.525719, 0.954335)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8fgpk"]
+albedo_texture = ExtResource("74_mfll4")
+roughness_texture = ExtResource("77_47kl8")
+normal_enabled = true
+normal_texture = ExtResource("76_loqih")
+heightmap_enabled = true
+heightmap_texture = ExtResource("75_xjifl")
+uv1_scale = Vector3(-0.27, -0.27, -0.27)
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_br4lb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ob7j7"]
+albedo_texture = ExtResource("78_owl2y")
+roughness_texture = ExtResource("81_6gblq")
+normal_enabled = true
+normal_texture = ExtResource("80_i3wuk")
+heightmap_enabled = true
+heightmap_texture = ExtResource("79_0mvy1")
+uv1_triplanar = true
+
+[sub_resource type="Animation" id="Animation_4trec"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-382.039, -66.3763, -91.192)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_manq8"]
+resource_name = "Switch_off"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:mesh")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 1,
+"values": []
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.025),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-382.039, -66.3763, -91.192), Vector3(-381.985, -67.4521, -91.192)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.025),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, -0.72885)]
+}
+
+[sub_resource type="Animation" id="Animation_o1ph8"]
+resource_name = "Switch_on"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:mesh")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 1,
+"values": []
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.025),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-381.985, -67.4521, -91.192), Vector3(-382.039, -66.3763, -91.192)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.025),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.72885), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vofak"]
+_data = {
+"RESET": SubResource("Animation_4trec"),
+"Switch_off": SubResource("Animation_manq8"),
+"Switch_on": SubResource("Animation_o1ph8")
+}
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3yr1c"]
+albedo_color = Color(0, 0, 1, 1)
+albedo_texture = ExtResource("83_d7cx3")
+roughness_texture = ExtResource("86_vciqe")
+normal_enabled = true
+normal_texture = ExtResource("85_xoqd5")
+heightmap_enabled = true
+heightmap_texture = ExtResource("84_actjm")
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ey14w"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0gwm2"]
+albedo_texture = ExtResource("87_8rxv4")
+uv1_scale = Vector3(0.6, 0.6, 0.6)
+uv1_offset = Vector3(0.195, 0.215, 0)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_gi6ks"]
+material = SubResource("StandardMaterial3D_0gwm2")
+flip_faces = true
+size = Vector2(1, 2)
+
 [sub_resource type="PlaneMesh" id="PlaneMesh_qws8e"]
 size = Vector2(69, 12)
 
@@ -1017,11 +1210,6 @@ shader_parameter/rotation_matrix = Transform2D(1.67, -1.005, 1.2, 1.6, 0, 0)
 [sub_resource type="PlaneMesh" id="PlaneMesh_b6krl"]
 material = SubResource("ShaderMaterial_vfpn2")
 size = Vector2(10000, 10000)
-
-[sub_resource type="BoxMesh" id="BoxMesh_8f73c"]
-
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_4mjo5"]
-data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1serv"]
 resource_name = "lambert1"
@@ -1896,6 +2084,10 @@ material_override = ExtResource("40_vhec4")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="World/KnockKnock/Cube_511/StaticBody3D2"]
 shape = SubResource("ConcavePolygonShape3D_nk5qj")
 
+[node name="GPUParticlesCollisionBox3D" type="GPUParticlesCollisionBox3D" parent="World/KnockKnock/Cube_511" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.2137, 0, 0)
+size = Vector3(1149.8, 2, 544.35)
+
 [node name="Cube_512" parent="World/KnockKnock" index="93"]
 material_override = SubResource("StandardMaterial3D_dgkei")
 
@@ -1927,6 +2119,101 @@ material_override = SubResource("StandardMaterial3D_ftfn5")
 [node name="Rug_001" parent="World/KnockKnock" index="97"]
 transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 152.523, 34.558, -238.243)
 material_override = SubResource("StandardMaterial3D_fo51l")
+
+[node name="Box" parent="World/KnockKnock" index="98"]
+gi_mode = 0
+surface_material_override/0 = SubResource("StandardMaterial3D_ftlq7")
+
+[node name="FuseBox_Body" type="StaticBody3D" parent="World/KnockKnock/Box" index="0" node_paths=PackedStringArray("lobby_lights", "corridor_lights", "underground_lights", "underground_lights_2", "desk_lamp") groups=["Interactibles"]]
+script = ExtResource("94_wmt3u")
+lobby_lights = NodePath("../../../Lobby_lights")
+corridor_lights = NodePath("../../../Corridor_lights")
+underground_lights = NodePath("../../../Underground _lights")
+underground_lights_2 = NodePath("../../../Underground_lights_2")
+desk_lamp = NodePath("../../../SpotLight3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World/KnockKnock/Box/FuseBox_Body"]
+shape = SubResource("ConvexPolygonShape3D_lt64t")
+
+[node name="Board" parent="World/KnockKnock" index="99"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -382.461, -67.0759, -91.0914)
+surface_material_override/0 = SubResource("StandardMaterial3D_8fgpk")
+
+[node name="Wheels" parent="World/KnockKnock" index="100"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.243, -66.6522, -85.4059)
+surface_material_override/0 = SubResource("StandardMaterial3D_br4lb")
+
+[node name="Switches_001" parent="World/KnockKnock" index="101"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.039, -66.3763, -91.192)
+surface_material_override/0 = SubResource("StandardMaterial3D_ob7j7")
+script = ExtResource("69_yqvyw")
+
+[node name="Box_Anim" type="AnimationPlayer" parent="World/KnockKnock/Switches_001" index="0"]
+libraries = {
+"": SubResource("AnimationLibrary_vofak")
+}
+
+[node name="Wheels_001" parent="World/KnockKnock" index="102"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.243, -66.6522, -86.8405)
+surface_material_override/0 = SubResource("StandardMaterial3D_br4lb")
+
+[node name="Wheels_002" parent="World/KnockKnock" index="103"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.243, -66.6522, -88.3029)
+surface_material_override/0 = SubResource("StandardMaterial3D_br4lb")
+
+[node name="Wheels_003" parent="World/KnockKnock" index="104"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.243, -66.6522, -89.7331)
+surface_material_override/0 = SubResource("StandardMaterial3D_br4lb")
+
+[node name="Wheels_004" parent="World/KnockKnock" index="105"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.243, -66.6522, -92.6426)
+surface_material_override/0 = SubResource("StandardMaterial3D_br4lb")
+
+[node name="Wheels_005" parent="World/KnockKnock" index="106"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.243, -66.6522, -94.0966)
+surface_material_override/0 = SubResource("StandardMaterial3D_br4lb")
+
+[node name="Wheels_006" parent="World/KnockKnock" index="107"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.243, -66.6522, -95.5517)
+surface_material_override/0 = SubResource("StandardMaterial3D_br4lb")
+
+[node name="Wheels_007" parent="World/KnockKnock" index="108"]
+transform = Transform3D(0.813672, 0, 0, 0, 0.813672, 0, 0, 0, 0.813672, -382.243, -66.6522, -97.0056)
+surface_material_override/0 = SubResource("StandardMaterial3D_br4lb")
+
+[node name="Cylinder" parent="World/KnockKnock" index="109"]
+surface_material_override/0 = SubResource("StandardMaterial3D_3yr1c")
+
+[node name="Cylinder_001" parent="World/KnockKnock" index="110"]
+surface_material_override/0 = SubResource("StandardMaterial3D_3yr1c")
+
+[node name="Cube" parent="World/KnockKnock" index="111"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ey14w")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="World/KnockKnock/Cube" index="0"]
+transform = Transform3D(-6.60042e-08, -1, 3.19093e-08, 0, -4.37114e-08, -0.73, 1.51, -4.37114e-08, 1.3948e-15, 0.109528, 0, 0.0195541)
+mesh = SubResource("PlaneMesh_gi6ks")
+
+[node name="Red_diode" parent="World/KnockKnock" index="112"]
+transform = Transform3D(-0.16374, 0, 0, 0, -0.16374, 0, 0, 0, -0.16374, -382.424, -64.0369, -90.2859)
+
+[node name="Red_diode_glass" parent="World/KnockKnock" index="113"]
+transform = Transform3D(-0.16374, 0, 0, 0, -0.16374, 0, 0, 0, -0.16374, -382.248, -64.0294, -90.2859)
+
+[node name="Red_light" type="OmniLight3D" parent="World/KnockKnock/Red_diode_glass" index="0"]
+transform = Transform3D(10.9058, 0, 0, 0, 8.48228, 0, 0, 0, 10.1787, -1.66333, 0, 0)
+light_color = Color(1, 0, 0, 1)
+light_energy = 0.0
+light_indirect_energy = 14.0
+omni_range = 100.0
+script = ExtResource("88_58o1o")
+
+[node name="Green_light" type="OmniLight3D" parent="World/KnockKnock/Green_diode_001" index="0"]
+transform = Transform3D(10.9058, 0, 0, 0, 8.4823, 0, 0, 0, 10.1788, -0.947754, 0, 0)
+light_color = Color(0, 1, 0, 1)
+light_energy = 1.3
+omni_range = 100.0
+script = ExtResource("89_pldej")
 
 [node name="MeshInstance3D3" type="MeshInstance3D" parent="World/KnockKnock"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.706, 1.16814, -75.977)
@@ -2539,21 +2826,6 @@ material = SubResource("FogMaterial_f1ll0")
 [node name="Clouds" type="MeshInstance3D" parent="World"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.162247, 1814.81, 0)
 mesh = SubResource("PlaneMesh_b6krl")
-
-[node name="FuseBox" type="MeshInstance3D" parent="World"]
-transform = Transform3D(8.74, 0, 0, 0, 8.74, 0, 0, 0, 8.74, -217.138, -37.5777, -76.3438)
-mesh = SubResource("BoxMesh_8f73c")
-
-[node name="FuseBox_Body" type="StaticBody3D" parent="World/FuseBox" node_paths=PackedStringArray("lobby_lights", "corridor_lights", "underground_lights", "underground_lights_2", "desk_lamp") groups=["Interactibles"]]
-script = ExtResource("94_wmt3u")
-lobby_lights = NodePath("../../Lobby_lights")
-corridor_lights = NodePath("../../Corridor_lights")
-underground_lights = NodePath("../../Underground _lights")
-underground_lights_2 = NodePath("../../Underground_lights_2")
-desk_lamp = NodePath("../../SpotLight3D")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="World/FuseBox/FuseBox_Body"]
-shape = SubResource("ConcavePolygonShape3D_4mjo5")
 
 [node name="Entity" parent="World" instance=ExtResource("5_wxe7x")]
 transform = Transform3D(12.035, 0, 0, 0, 12.035, 0, 0, 0, 12.035, -80.7384, -57.2852, -161.649)

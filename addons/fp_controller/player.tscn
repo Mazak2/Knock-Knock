@@ -214,7 +214,7 @@ floor_snap_length = 0.5
 script = ExtResource("1_5ras8")
 
 [node name="DoorRay" type="RayCast3D" parent="."]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.66499, 0)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.82954, 0)
 target_position = Vector3(0, 0, -1)
 collision_mask = 19
 script = ExtResource("13_xvtef")
